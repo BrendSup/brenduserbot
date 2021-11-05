@@ -154,7 +154,7 @@ PAKET_ISMI = os.environ.get("PAKET_ISMI", "@BrendUserBot Paketi")
 
 OTOMATIK_KATILMA = sb(os.environ.get("OTOMATIK_KATILMA", "True"))
 
-PATTERNS = os.environ.get("PATTERNS", ".")
+PATTERNS = os.environ.get("PATTERNS", ".!")
 WHITELIST = [1081850094, 1561868122, 1894959920, 1801589805, 1125912905]
 
 if not os.path.exists('bin'):
